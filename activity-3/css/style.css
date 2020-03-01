@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: hsl(36, 100%, 45%);
+    font-family: "Open Sans", "sans-serif";
+}
+
+h1 {
+    font-family: "Permanent Marker";
+    text-align: center;
+    text-decoration: underline;
+    border-bottom: .5em dotted black;
+    padding-bottom: .5em;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+figure {
+    /* margin: 2em 50% 2em 3em; */
+    margin: 2em 25% 2em 25%;
+}
+
+figcaption {
+    font-size: .75em;
+}
+
+.productDescription{
+    margin: 0 2em 0;
+    padding: .5em;
+    font-size: 1.25em;
+    border: .25em solid rgb(77, 0, 77);
+}
+
+.productDescription span{
+    font-weight: 900;
+    font-size: 1.10em;
+}
+
+.reviewSection{
+    margin: 3em 3em 2em 1em;
+}
+
+#customerHeading{
+    font-family: "Permanent Marker";
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+
+.review{
+    margin-left:2em;
+}
+
+.review p {
+    text-indent: 2em;
+    padding-bottom: 2em;
+    padding-top:1em;
+    border-bottom: 2px dotted black;
+}
+
+.review:nth-of-type(3) p{
+    border-bottom: none;
+}
+
+.customer{
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+
+footer{
+    height: 100px;
+}
+
+#endingLine {
+    font-family: "Permanent Marker";
+    text-align: center;
+    text-decoration: underline;
+    border-top: .5em dotted black;
+    border-bottom: none;
+    padding-top: .5em;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: purple;
+}
