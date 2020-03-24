@@ -1,0 +1,39 @@
+body{
+    font-family: "Open sans" , "sans-serif";
+    margin: auto 30px;
+    background-color: lightgrey;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+section{
+    margin: 0 4em;
+}
+
+footer{
+    text-align: center;
+}
+
+#credits{
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 2em;
+    text-indent: 4em;
+}
+
+.package-container{
+    margin-top: 2.5em;
+}
+
+#header-img{
+    width: 65%;
+    margin: 0 10em;
+    border: 1px solid black;
+}
+
+#author, #p1-author, #p2-author, #p3-author {
+    text-decoration: underline;
+    font-weight: 900;
+}
